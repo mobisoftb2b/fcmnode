@@ -1,0 +1,27 @@
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+auth-service/node_modules/
+order-service/node_modules/
+products-service/node_modules/
+search-service/node_modules/
+
+
+# Dist Folder for the library
+auth-service/dist/
+order-service/dist/
+products-service/dist/
+search-service/dist/
+
+# Logs
+auth-service/*.log
+auth-service/logs/
+order-service/*.log
+order-service/logs
+products-service/*.log
+products-service/logs
+search-service/*.log
+search-service/logs
+logs/*.log
